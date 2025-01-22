@@ -8,6 +8,13 @@ function sortear() {
         return
     }
 
+    if (quantidade > (ate - de + 1)){
+        alert('A quantidade de números deve ser menor ou igual a diferença de números do sorteio');
+        return
+    }
+
+
+
     let sorteados = [];
     let numero;
 
